@@ -84,70 +84,70 @@ public class Problems {
                 String lastTwo = roman.substring(l - 2, l);
 
                 switch (lastTwo) {
-                    case "IV" -> {
+                    case "IV":
                         found = true;
                         output += 4;
                         roman = roman.substring(0, l - 2);
-                    }
-                    case "IX" -> {
+                        break;
+                    case "IX":
                         found = true;
                         output += 9;
                         roman = roman.substring(0, l - 2);
-                    }
-                    case "XL" -> {
+                        break;
+                    case "XL":
                         found = true;
                         output += 40;
                         roman = roman.substring(0, l - 2);
-                    }
-                    case "XC" -> {
+                        break;
+                    case "XC":
                         found = true;
                         output += 90;
                         roman = roman.substring(0, l - 2);
-                    }
-                    case "CD" -> {
+                        break;
+                    case "CD":
                         found = true;
                         output += 400;
                         roman = roman.substring(0, l - 2);
-                    }
-                    case "CM" -> {
+                        break;
+                    case "CM":
                         found = true;
                         output += 900;
                         roman = roman.substring(0, l - 2);
-                    }
+                        break;
                 }
             }
             if (!found) {
                 l = roman.length();
                 String last = roman.substring(l - 1, l);
                 switch (last) {
-                    case "I" -> {
+                    case "I":
                         roman = roman.substring(0, l - 1);
                         output += 1;
-                    }
-                    case "V" -> {
+                        break;
+                    case "V":
                         roman = roman.substring(0, l - 1);
                         output += 5;
-                    }
-                    case "X" -> {
+                        break;
+                    case "X":
                         roman = roman.substring(0, l - 1);
                         output += 10;
-                    }
-                    case "L" -> {
+                        break;
+                    case "L":
                         roman = roman.substring(0, l - 1);
                         output += 50;
-                    }
-                    case "C" -> {
+                        break;
+                    case "C":
                         roman = roman.substring(0, l - 1);
                         output += 100;
-                    }
-                    case "D" -> {
+                        break;
+                    case "D":
                         roman = roman.substring(0, l - 1);
                         output += 500;
-                    }
-                    case "M" -> {
+                        break;
+                    case "M":
                         roman = roman.substring(0, l - 1);
                         output += 1000;
-                    }
+                        break;
                 }
             }
         }
