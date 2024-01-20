@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: part2.ProblemsTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in part2.ProblemsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 s - in part2.ProblemsTest
