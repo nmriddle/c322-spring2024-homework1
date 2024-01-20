@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="part2.ProblemsTest" time="0.052" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="part2.ProblemsTest" time="0.074" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\nelar\.jdks\openjdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\nelar\AppData\Local\Temp\surefire5138296729708980029\surefirebooter11419370886790229909.jar C:\Users\nelar\AppData\Local\Temp\surefire5138296729708980029 2024-01-20T17-06-17_424-jvmRun1 surefire5808709326072406619tmp surefire_04706308141813639891tmp"/>
+    <property name="sun.java.command" value="C:\Users\nelar\AppData\Local\Temp\surefire6011469702518206404\surefirebooter648450294599104579.jar C:\Users\nelar\AppData\Local\Temp\surefire6011469702518206404 2024-01-20T17-08-38_179-jvmRun1 surefire15998776495618972528tmp surefire_01553957605231592148tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\nelar\OneDrive - Indiana University\Nela&apos;s Stuff\Main\Spring 2024\CSCI-C 322\c322-spring2024-homework1\target\test-classes;C:\Users\nelar\OneDrive - Indiana University\Nela&apos;s Stuff\Main\Spring 2024\CSCI-C 322\c322-spring2024-homework1\target\classes;C:\Users\nelar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\nelar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nelar\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\nelar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\nelar\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\nelar\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\nelar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nelar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\nelar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\nelar\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nelar\AppData\Local\Temp\surefire5138296729708980029\surefirebooter11419370886790229909.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nelar\AppData\Local\Temp\surefire6011469702518206404\surefirebooter648450294599104579.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
@@ -56,11 +56,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="problem1" classname="part2.ProblemsTest" time="0.029"/>
-  <testcase name="problem2" classname="part2.ProblemsTest" time="0.003"/>
-  <testcase name="problem3" classname="part2.ProblemsTest" time="0.006"/>
-  <testcase name="problem4" classname="part2.ProblemsTest" time="0.001"/>
+  <testcase name="problem1" classname="part2.ProblemsTest" time="0.047"/>
+  <testcase name="problem2" classname="part2.ProblemsTest" time="0.006"/>
+  <testcase name="problem3" classname="part2.ProblemsTest" time="0.004"/>
+  <testcase name="problem4" classname="part2.ProblemsTest" time="0.003"/>
   <testcase name="problem5" classname="part2.ProblemsTest" time="0.003"/>
-  <testcase name="problem6" classname="part2.ProblemsTest" time="0.001"/>
+  <testcase name="problem6" classname="part2.ProblemsTest" time="0.002"/>
   <testcase name="problem7" classname="part2.ProblemsTest" time="0.002"/>
 </testsuite>
